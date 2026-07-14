@@ -1,5 +1,6 @@
 Phase Lead Circuit and Bode Plot Analysis
 
+
 Overview:-
 
 1)This project focuses on the design and simulation of a **Phase Lead Circuit using LTspice**. The frequency response of the RC network is analyzed using waveform analysis and Bode plots.
@@ -10,15 +11,18 @@ Overview:-
 
 
 
+
 Objective:-
 
 To design and simulate a Phase Lead Circuit and analyze its frequency response using waveform analysis and Bode plots in LTspice.
 
 
 
+
 Software Used:-
 
 LTspice
+
 
 
 
@@ -29,6 +33,7 @@ Circuit Components:-
 | Resistor  | 10 kΩ |
 | Capacitor | 0.01 µF |
 | AC Source | 1 V |
+
 
 
 
@@ -44,6 +49,7 @@ A sinusoidal input signal is applied to the Phase Lead Circuit.
 
 
 
+
 Circuit Description:-
 
 1)The Phase Lead Circuit is implemented using a resistor-capacitor RC network.
@@ -53,6 +59,7 @@ Circuit Description:-
 3)The output voltage is measured across the resistor.
 
 40The circuit behaves as a first-order RC network and produces a positive phase shift between the input and output signals.
+
 
 
 
@@ -91,6 +98,7 @@ Therefore, the cutoff frequency of the designed circuit is approximately **1.59 
 
 
 
+
 LTspice Simulation:-
 
 The Phase Lead Circuit was designed and simulated using LTspice.
@@ -113,6 +121,7 @@ AC analysis was used to study the frequency response and generate the Bode plot.
 
 
 
+
 Waveform Analysis:-
 
 The transient response of the circuit was analyzed by comparing the input and output sinusoidal waveforms.
@@ -125,6 +134,7 @@ Observations
 - The amplitude of the output depends on the operating frequency.
 
 The waveform analysis verifies the phase lead characteristics of the RC network.
+
 
 
 
