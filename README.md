@@ -1,43 +1,38 @@
-Phase Lead Circuit and Bode Plot Analysis
+# Phase Lead Circuit and Bode Plot Analysis
 
+## Overview
 
-Overview:-
+This project focuses on the design and simulation of a **Phase Lead Circuit using LTspice**. The frequency response of the RC network is analyzed using waveform analysis and Bode plots.
 
-1)This project focuses on the design and simulation of a **Phase Lead Circuit using LTspice**. The frequency response of the RC network is analyzed using waveform analysis and Bode plots.
+The circuit demonstrates the phase lead characteristics of a first-order RC network. The output waveform leads the input waveform in phase, while the magnitude and phase response vary with the frequency of the input signal.
 
-2)The circuit demonstrates the phase lead characteristics of a first-order RC network. The output waveform leads the input waveform in phase, while the magnitude and phase response vary with the frequency of the input signal.
+This project provides practical experience in analog circuit simulation, frequency response analysis, and Bode plot interpretation.
 
-3)This project provides practical experience in analog circuit simulation, frequency response analysis, and Bode plot interpretation.
+---
 
+## Objective
 
+To design and simulate a **Phase Lead Circuit** and analyze its frequency response using waveform analysis and Bode plots in LTspice.
 
+---
 
-Objective:-
+## Software Used
 
-To design and simulate a Phase Lead Circuit and analyze its frequency response using waveform analysis and Bode plots in LTspice.
+- LTspice
 
+---
 
-
-
-Software Used:-
-
-LTspice
-
-
-
-
-Circuit Components:-
+## Circuit Components
 
 | Component | Value |
 |-----------|-------|
-| Resistor  | 10 kΩ |
+| Resistor | 10 kΩ |
 | Capacitor | 0.01 µF |
 | AC Source | 1 V |
 
+---
 
-
-
-Input Signal:-
+## Input Signal
 
 A sinusoidal input signal is applied to the Phase Lead Circuit.
 
@@ -47,23 +42,21 @@ A sinusoidal input signal is applied to the Phase Lead Circuit.
 | Amplitude | 1 V |
 | Frequency | 2 kHz |
 
+---
 
+## Circuit Description
 
+The Phase Lead Circuit is implemented using a resistor-capacitor RC network.
 
-Circuit Description:-
+The capacitor is connected in series with the input signal and the resistor is connected between the output node and ground.
 
-1)The Phase Lead Circuit is implemented using a resistor-capacitor RC network.
+The output voltage is measured across the resistor.
 
-2)The capacitor is connected in series with the input signal and the resistor is connected between the output node and ground.
+The circuit behaves as a first-order RC network and produces a positive phase shift between the input and output signals.
 
-3)The output voltage is measured across the resistor.
+---
 
-40The circuit behaves as a first-order RC network and produces a positive phase shift between the input and output signals.
-
-
-
-
-Theoretical Background:-
+## Theoretical Background
 
 A Phase Lead Circuit is a first-order RC network that provides a positive phase shift between the input and output signals.
 
@@ -96,10 +89,9 @@ fc ≈ 1591 Hz
 
 Therefore, the cutoff frequency of the designed circuit is approximately **1.59 kHz**.
 
+---
 
-
-
-LTspice Simulation:-
+## LTspice Simulation
 
 The Phase Lead Circuit was designed and simulated using LTspice.
 
@@ -119,14 +111,13 @@ Transient analysis was performed to observe the input and output waveforms.
 
 AC analysis was used to study the frequency response and generate the Bode plot.
 
+---
 
-
-
-Waveform Analysis:-
+## Waveform Analysis
 
 The transient response of the circuit was analyzed by comparing the input and output sinusoidal waveforms.
 
-Observations
+### Observations
 
 - The input and output signals are sinusoidal.
 - The output waveform leads the input waveform in phase.
@@ -135,30 +126,29 @@ Observations
 
 The waveform analysis verifies the phase lead characteristics of the RC network.
 
+---
 
-
-
-Bode Plot Analysis:-
+## Bode Plot Analysis
 
 The Bode plot is used to analyze the magnitude and phase response of the circuit over a range of frequencies.
 
-Magnitude Response:-
+### Magnitude Response
 
 - The gain varies with frequency.
 - Low-frequency signals are attenuated more strongly.
 - High-frequency signals experience lower attenuation.
 - The magnitude response changes near the cutoff frequency.
 
-Phase Response:-
+### Phase Response
 
 - The output leads the input in phase.
 - The phase shift changes with frequency.
 - The phase lead is significant around the cutoff region.
 - At higher frequencies, the phase difference decreases.
 
+---
 
-
-Frequency Response:-
+## Frequency Response
 
 The circuit exhibits frequency-selective behaviour.
 
@@ -176,3 +166,12 @@ Therefore, increasing the input frequency reduces the capacitive reactance and a
 
 This behaviour results in a phase lead and frequency-dependent magnitude response.
 
+---
+
+## Result
+
+The Phase Lead Circuit was successfully designed and simulated using LTspice.
+
+Waveform analysis verified that the output signal leads the input signal in phase. The Bode plot demonstrated the frequency-dependent magnitude and phase characteristics of the RC network.
+
+The simulation successfully verified the expected phase lead characteristics and frequency response of the circuit.
